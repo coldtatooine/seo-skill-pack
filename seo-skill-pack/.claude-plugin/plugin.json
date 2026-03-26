@@ -1,0 +1,21 @@
+{
+  "name": "seo-skill-pack",
+  "version": "1.0.0",
+  "description": "Complete SEO toolkit — local SEO audits, AI search readiness, GEO content briefs, meta tag optimization, schema markup, competitor analysis, and site health audits.",
+  "author": {
+    "name": "Alê Lima",
+    "email": "sandro.box@gmail.com"
+  },
+  "keywords": [
+    "seo",
+    "local-seo",
+    "geo",
+    "content-brief",
+    "meta-tags",
+    "schema-markup",
+    "site-audit",
+    "competitor-analysis",
+    "ai-search"
+  ],
+  "license": "MIT"
+}

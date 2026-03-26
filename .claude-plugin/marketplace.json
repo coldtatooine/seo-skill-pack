@@ -1,0 +1,18 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "seo-skill-pack",
+  "version": "1.0.0",
+  "description": "Complete SEO toolkit — 7 skills for local SEO audits, AI search readiness, GEO content briefs, meta tag optimization, schema markup, competitor analysis, and site health audits.",
+  "owner": {
+    "name": "Alê Lima",
+    "email": "sandro.box@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "seo-skill-pack",
+      "description": "Complete SEO toolkit — local SEO audits, AI search readiness, GEO content briefs, meta tag optimization, schema markup, competitor analysis, and site health audits.",
+      "source": "./seo-skill-pack",
+      "category": "seo"
+    }
+  ]
+}
