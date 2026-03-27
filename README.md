@@ -21,7 +21,7 @@
 1. Open **Customize** (bottom-left)
 2. Go to **Browse plugins** → **Personal** → **+**
 3. Select **Add marketplace from GitHub**
-4. Enter: `your-github-username/seo-skill-pack`
+4. Enter: `coldtatooine/seo-skill-pack`
 
 All skills install automatically.
 
