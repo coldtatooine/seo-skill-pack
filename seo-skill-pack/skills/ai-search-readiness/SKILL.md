@@ -1,5 +1,5 @@
 ---
-name: AI Search Readiness Checker
+name: ai-search-readiness
 description: This skill should be used when the user asks to "check AI search readiness", "optimize for AI search", "AI overview optimization", "SGE optimization", "optimize for ChatGPT search", "optimize for Perplexity", "AI citations audit", "LLM visibility check", "generative search optimization", "check if AI mentions my brand", "AI search audit", or wants to evaluate how well a website or brand appears in AI-generated search results (Google AI Overviews, ChatGPT, Perplexity, Claude).
 version: 1.0.0
 ---

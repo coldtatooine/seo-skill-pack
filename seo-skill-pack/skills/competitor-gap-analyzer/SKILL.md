@@ -1,5 +1,5 @@
 ---
-name: Competitor Gap Analyzer
+name: competitor-gap-analyzer
 description: This skill should be used when the user asks to "analyze competitors", "competitor gap analysis", "find keyword gaps", "what are competitors doing", "competitive SEO analysis", "compare my site to competitors", "competitor content analysis", "find ranking opportunities", "competitor backlink analysis", "SERP competitor comparison", "stolen keywords", "content gap analysis", or wants to identify SEO opportunities by analyzing what competitors rank for, their content strategies, and where gaps exist.
 version: 1.0.0
 ---

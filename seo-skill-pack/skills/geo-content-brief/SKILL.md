@@ -1,5 +1,5 @@
 ---
-name: GEO Content Brief Generator
+name: geo-content-brief
 description: This skill should be used when the user asks to "create a content brief", "generate content brief for SEO", "GEO content brief", "content brief for local SEO", "write a brief for a blog post", "SEO content outline", "content strategy brief", "keyword-driven content brief", "create an article outline", "content brief with search intent", or wants to generate a structured content brief designed to rank in both traditional and generative/AI search results.
 version: 1.0.0
 ---

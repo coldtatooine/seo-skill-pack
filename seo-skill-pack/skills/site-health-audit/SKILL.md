@@ -1,5 +1,5 @@
 ---
-name: Site Health Quick Audit
+name: site-health-audit
 description: This skill should be used when the user asks to "audit site health", "check my website SEO", "technical SEO audit", "site audit", "check site speed", "find SEO issues", "crawl errors audit", "fix SEO problems", "website health check", "Core Web Vitals audit", "indexing issues", "check robots.txt", "sitemap audit", "quick SEO scan", or wants a rapid technical assessment of a website's SEO health covering crawlability, indexing, speed, and on-page factors.
 version: 1.0.0
 ---

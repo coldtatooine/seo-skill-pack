@@ -1,5 +1,5 @@
 ---
-name: Local Schema Markup Generator
+name: local-schema-markup
 description: This skill should be used when the user asks to "generate schema markup", "create local business schema", "add structured data", "JSON-LD for local business", "schema markup generator", "create FAQ schema", "generate product schema", "local schema", "structured data for SEO", "rich results markup", "organization schema", "service schema", "review schema", or wants to generate JSON-LD structured data for local businesses, services, products, FAQs, events, or any other schema.org type.
 version: 1.0.0
 ---

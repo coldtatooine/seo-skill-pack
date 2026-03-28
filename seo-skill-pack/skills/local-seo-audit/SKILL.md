@@ -1,5 +1,5 @@
 ---
-name: Local SEO Audit
+name: local-seo-audit
 description: This skill should be used when the user asks to "audit local SEO", "check my Google Business Profile", "review local search presence", "analyze local rankings", "local SEO checklist", "audit GBP", "Google Business Profile audit", "local pack optimization", "NAP consistency check", "local citations audit", or wants to evaluate a business's local search visibility and Google Business Profile health.
 version: 1.0.0
 ---

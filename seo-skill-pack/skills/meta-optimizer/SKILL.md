@@ -1,5 +1,5 @@
 ---
-name: Meta Title & Description Optimizer
+name: meta-optimizer
 description: This skill should be used when the user asks to "optimize meta tags", "fix title tags", "write meta descriptions", "improve meta titles", "meta tag audit", "title tag optimization", "SERP snippet optimization", "CTR optimization", "fix page titles", "rewrite meta descriptions", "bulk meta tag optimization", or provides a list of pages/URLs needing title and description improvements for better search visibility and click-through rates.
 version: 1.0.0
 ---
