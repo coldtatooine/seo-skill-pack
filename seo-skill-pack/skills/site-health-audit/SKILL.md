@@ -1,6 +1,6 @@
 ---
 name: site-health-audit
-description: This skill should be used when the user asks to "audit site health", "check my website SEO", "technical SEO audit", "site audit", "check site speed", "find SEO issues", "crawl errors audit", "fix SEO problems", "website health check", "Core Web Vitals audit", "indexing issues", "check robots.txt", "sitemap audit", "quick SEO scan", or wants a rapid technical assessment of a website's SEO health covering crawlability, indexing, speed, and on-page factors.
+description: This skill should be used when the user asks to "audit site health", "technical SEO audit", "Core Web Vitals audit", "crawl errors audit", "website health check", or wants a rapid technical assessment of a website's SEO health covering crawlability, indexing, speed, and on-page factors.
 version: 1.0.0
 ---
 
@@ -45,15 +45,7 @@ Perform initial checks using web tools and browsing:
 
 ### Phase 3 — Core Web Vitals & Performance
 
-Evaluate these metrics (use web search for PageSpeed data if available):
-
-| Metric | Good | Needs Improvement | Poor |
-|--------|------|-------------------|------|
-| LCP (Largest Contentful Paint) | <=2.5s | 2.5-4.0s | >4.0s |
-| INP (Interaction to Next Paint) | <=200ms | 200-500ms | >500ms |
-| CLS (Cumulative Layout Shift) | <=0.1 | 0.1-0.25 | >0.25 |
-| TTFB (Time to First Byte) | <=800ms | 800-1800ms | >1800ms |
-| FCP (First Contentful Paint) | <=1.8s | 1.8-3.0s | >3.0s |
+Evaluate these metrics (use web search for PageSpeed data if available). Apply standard CWV thresholds: LCP ≤2.5s, INP ≤200ms, CLS ≤0.1, TTFB ≤800ms, FCP ≤1.8s — anything above 2× these values is Poor, between is Needs Improvement.
 
 Common performance issues to check:
 - Unoptimized images (no WebP/AVIF, missing dimensions, oversized)
@@ -158,6 +150,8 @@ Add platform-specific checks when CMS is known:
 ## Additional Resources
 
 ### Reference Files
+
+> Only read `health-report-template.md` when generating the final report (Phase 7). Only read `common-issues-fixes.md` when producing CMS-specific fix instructions — not during the audit phases.
 
 - **`references/health-report-template.md`** — Full health audit report template with scoring rubric
 - **`references/common-issues-fixes.md`** — Encyclopedia of common technical SEO issues with step-by-step fix instructions per CMS

@@ -1,7 +1,10 @@
 {
   "permissions": {
     "allow": [
-      "Bash(python3:*)"
+      "Bash(python3:*)",
+      "Bash(wc -l D:/git/seo-skill-pack/seo-skill-pack/skills/*/references/*.md D:/git/seo-skill-pack/seo-skill-pack/skills/*/SKILL.md)",
+      "Bash(wc -c D:/git/seo-skill-pack/seo-skill-pack/skills/*/references/*.md D:/git/seo-skill-pack/seo-skill-pack/skills/*/SKILL.md)",
+      "Bash(wc -c D:/git/seo-skill-pack/seo-skill-pack/skills/*/SKILL.md)"
     ]
   }
 }

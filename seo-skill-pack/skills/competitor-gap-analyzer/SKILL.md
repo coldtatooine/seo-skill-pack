@@ -1,6 +1,6 @@
 ---
 name: competitor-gap-analyzer
-description: This skill should be used when the user asks to "analyze competitors", "competitor gap analysis", "find keyword gaps", "what are competitors doing", "competitive SEO analysis", "compare my site to competitors", "competitor content analysis", "find ranking opportunities", "competitor backlink analysis", "SERP competitor comparison", "stolen keywords", "content gap analysis", or wants to identify SEO opportunities by analyzing what competitors rank for, their content strategies, and where gaps exist.
+description: This skill should be used when the user asks to "competitor gap analysis", "find keyword gaps", "competitive SEO analysis", "content gap analysis", "competitor backlink analysis", or wants to identify SEO opportunities by analyzing what competitors rank for and where gaps exist.
 version: 1.0.0
 ---
 
@@ -164,6 +164,8 @@ Score each competitor across dimensions:
 ## Additional Resources
 
 ### Reference Files
+
+> Only read these files when generating the final report output (Phase 6). Do not read them during earlier phases.
 
 - **`references/gap-report-template.md`** — Full competitor gap analysis report template
 - **`references/keyword-gap-methodology.md`** — Detailed methodology for keyword gap analysis with examples and prioritization frameworks

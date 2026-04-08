@@ -1,6 +1,6 @@
 ---
 name: ai-search-readiness
-description: This skill should be used when the user asks to "check AI search readiness", "optimize for AI search", "AI overview optimization", "SGE optimization", "optimize for ChatGPT search", "optimize for Perplexity", "AI citations audit", "LLM visibility check", "generative search optimization", "check if AI mentions my brand", "AI search audit", or wants to evaluate how well a website or brand appears in AI-generated search results (Google AI Overviews, ChatGPT, Perplexity, Claude).
+description: This skill should be used when the user asks to "check AI search readiness", "AI overview optimization", "LLM visibility check", "generative search optimization", "AI citations audit", or wants to evaluate brand visibility in AI-generated search results (Google AI Overviews, ChatGPT, Perplexity).
 version: 1.0.0
 ---
 
@@ -120,6 +120,8 @@ Generate the readiness report using `references/readiness-report-template.md`:
 ## Additional Resources
 
 ### Reference Files
+
+> Only read these files when generating the final report output (Phase 5). Do not read them during earlier phases.
 
 - **`references/readiness-report-template.md`** — Full report template with scoring rubric
 - **`references/ai-crawler-list.md`** — Complete list of known AI crawler user-agents and their robots.txt directives

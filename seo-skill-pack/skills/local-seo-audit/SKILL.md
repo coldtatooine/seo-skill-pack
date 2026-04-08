@@ -1,6 +1,6 @@
 ---
 name: local-seo-audit
-description: This skill should be used when the user asks to "audit local SEO", "check my Google Business Profile", "review local search presence", "analyze local rankings", "local SEO checklist", "audit GBP", "Google Business Profile audit", "local pack optimization", "NAP consistency check", "local citations audit", or wants to evaluate a business's local search visibility and Google Business Profile health.
+description: This skill should be used when the user asks to "audit local SEO", "Google Business Profile audit", "NAP consistency check", "local citations audit", "local pack optimization", or wants to evaluate a business's local search visibility and Google Business Profile health.
 version: 1.0.0
 ---
 
@@ -120,9 +120,13 @@ Each category scored 0-100, then weighted for final score.
 
 ### Reference Files
 
+> Only read these files when generating the final report output (Phase 6). Do not read them during earlier phases.
+
 - **`references/audit-report-template.md`** — Full audit report template with scoring rubric
 - **`references/gbp-optimization-checklist.md`** — Detailed GBP optimization guide with all fields and best practices
 
 ### Scripts
+
+> User-run only — not invoked during the audit workflow. Suggest to the user if they want to automate NAP checking across many URLs.
 
 - **`scripts/nap-checker.py`** — Python script to check NAP consistency across provided URLs

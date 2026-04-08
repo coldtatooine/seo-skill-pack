@@ -1,6 +1,6 @@
 ---
 name: local-schema-markup
-description: This skill should be used when the user asks to "generate schema markup", "create local business schema", "add structured data", "JSON-LD for local business", "schema markup generator", "create FAQ schema", "generate product schema", "local schema", "structured data for SEO", "rich results markup", "organization schema", "service schema", "review schema", or wants to generate JSON-LD structured data for local businesses, services, products, FAQs, events, or any other schema.org type.
+description: This skill should be used when the user asks to "generate schema markup", "add structured data", "JSON-LD for local business", "schema markup generator", "rich results markup", or wants to generate JSON-LD structured data for any schema.org type.
 version: 1.0.0
 ---
 
@@ -47,23 +47,7 @@ Generate JSON-LD following these rules:
 
 #### LocalBusiness Schema (Core)
 
-Select the most specific subtype from schema.org hierarchy:
-
-```
-LocalBusiness
-├── AnimalShelter
-├── AutomotiveBusiness (AutoDealer, AutoRepair, GasStation)
-├── DentalOffice (Dentist)
-├── FinancialService (AccountingService, BankOrCreditUnion)
-├── FoodEstablishment (Restaurant, CafeOrCoffeeShop, BarOrPub, Bakery)
-├── HealthAndBeautyBusiness (DaySpa, HairSalon, NailSalon)
-├── LegalService (Attorney, Notary)
-├── MedicalBusiness (MedicalClinic, Physician, Optician)
-├── ProfessionalService
-├── RealEstateAgent
-├── Store (ClothingStore, ElectronicsStore, HardwareStore)
-└── ... (many more subtypes)
-```
+Select the most specific schema.org LocalBusiness subtype (e.g., Dentist, Restaurant, Attorney, DaySpa, AutoRepair). Full subtype reference is in `references/schema-templates.md` if needed.
 
 #### Required Properties (LocalBusiness)
 
@@ -179,6 +163,8 @@ Quick-reference for typical local business pages:
 ## Additional Resources
 
 ### Reference Files
+
+> Only read `schema-templates.md` if the user needs a ready-made template for a specific business type. Only read `schema-validation-guide.md` if validation errors occur. Do not read both proactively.
 
 - **`references/schema-templates.md`** — Ready-to-use JSON-LD templates for all common local business types
 - **`references/schema-validation-guide.md`** — Detailed validation rules, common errors, and testing instructions

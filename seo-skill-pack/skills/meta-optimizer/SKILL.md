@@ -1,6 +1,6 @@
 ---
 name: meta-optimizer
-description: This skill should be used when the user asks to "optimize meta tags", "fix title tags", "write meta descriptions", "improve meta titles", "meta tag audit", "title tag optimization", "SERP snippet optimization", "CTR optimization", "fix page titles", "rewrite meta descriptions", "bulk meta tag optimization", or provides a list of pages/URLs needing title and description improvements for better search visibility and click-through rates.
+description: This skill should be used when the user asks to "optimize meta tags", "title tag optimization", "meta tag audit", "CTR optimization", "bulk meta tag optimization", or provides a list of pages/URLs needing title and description improvements for better search visibility.
 version: 1.0.0
 ---
 
@@ -141,5 +141,9 @@ https://example.com/page-slug
 
 ### Reference Files
 
+> Only read `title-formulas.md` for industry-specific edge cases not covered by the formulas above. Do not read it for standard page types. Do not read `power-words-list.md` — use the summary below instead.
+
 - **`references/title-formulas.md`** — Extended title tag formulas by industry and page type with CTR data
-- **`references/power-words-list.md`** — Curated list of CTR-boosting power words, numbers, and emotional triggers for titles and descriptions
+- **`references/power-words-list.md`** — Full list (only needed for exhaustive campaigns)
+
+**Power word quick reference:** Value (Free, Save, Affordable), Urgency (Now, Limited, Last Chance), Trust (Proven, Certified, Guaranteed), Exclusivity (Secret, Exclusive, Insider), Results (Boost, Transform, Unlock), Simplicity (Easy, Step-by-Step). Use odd numbers in titles (5, 7, 11, 21). Add current year for time-sensitive content.
