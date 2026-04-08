@@ -29,7 +29,7 @@ All skills install automatically.
 
 ```bash
 # Add the marketplace
-claude plugin marketplace add your-github-username/seo-skill-pack
+claude plugin marketplace add coldtatooine/seo-skill-pack
 
 # Install the plugin
 claude plugin install seo-skill-pack@seo-skill-pack
